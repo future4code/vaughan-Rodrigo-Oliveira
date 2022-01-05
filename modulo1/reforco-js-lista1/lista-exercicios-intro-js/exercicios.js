@@ -60,10 +60,6 @@ function imprimeTresCoresFavoritas() {
   const TresCoresFavoritas1 = ["Laranja","Roxo","Preto"]
   console.log(TresCoresFavoritas1)
  
-  
-  
-  
- 
 
 }
 
@@ -79,6 +75,9 @@ return frase
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
   // implemente sua lógica aqui
+  const ingressos  = custo / valorIngresso
+  return ingressos
+
   
 
 }
@@ -86,13 +85,14 @@ function calculaIngressosEspetaculo(custo, valorIngresso) {
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
   // implemente sua lógica aqui
-
+  
 }
 
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
   // implemente sua lógica aqui
-
+const array = ["1", "2", "3"]
+console.log(array [0])
 }
 
 // EXERCÍCIO 10
