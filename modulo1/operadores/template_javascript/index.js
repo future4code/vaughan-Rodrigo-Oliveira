@@ -14,12 +14,9 @@ console.log("c. ", resultado)
 console.log("d. ", typeof resultado)
 
 
-let primeiroNumero = prompt("Digite um numero!")
-let segundoNumero = prompt("Digite outro numero!")
-
-const soma = primeiroNumero + segundoNumero
-
-console.log(soma)
+const primeiroNumero = Number(prompt("Digite um numero!"))
+const segundoNumero = Number(prompt("Digite outro numero!"))
+console.log("soma", primeiroNumero + segundoNumero)
 
 // exercicio 1
 
@@ -29,6 +26,7 @@ const idadeAmi = prompt  ("Idade da sua melhor amiga")
 const dif = idade >= idadeAmi
 console.log ("Sua idade é maior que do sua melhor amiga?"), idade >= idadeAmi 
 
+// exercicio 2
 
 const numeroPar = prompt ("Digite um numero par")
 const divisao = numeroPar % 2
@@ -41,6 +39,15 @@ console.log (divisao)
 let = num1 = prompt ("Digite um numero")
 let = num2 = prompt ("Digite outro numero")
 
+// exercicio 3
+
+const meses = prompt ("Sua idade em meses?")
+const dias = prompt ("Sua idade em dias?")
+const horas = prompt ("Sua idade em horas?")
+console.log
+
+
+// exercicio 4
 const numeroMaior = num1 > num2
 const numeroIgual = num1 == num2
 const numDivi = num1 / num2
